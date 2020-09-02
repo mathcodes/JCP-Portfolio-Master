@@ -18,10 +18,10 @@ class About extends Component {
       <section id="about">
       <div className="row">
          <div className="three columns">
-            <img className="profile-pic"  src="./images/headshot.jpg" alt="Jon Christie Profile Pic" />
+            <h2>About Me</h2><img className="profile-pic"  src="./images/headshot.jpg" alt="Jon Christie Profile Pic" />
          </div>
          <div className="nine columns main-col">
-            <h2>About Me</h2>
+            
 
             <p>{bio}</p>
             <div className="row">

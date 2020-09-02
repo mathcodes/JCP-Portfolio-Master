@@ -19,7 +19,9 @@ class Footer extends Component {
            </ul>
 
            <ul className="copyright">
-              <li>&copy; 2020 Jon Christie</li>
+              <li> <a href="#">&copy; 2020 Jon Christie</a></li>
+              <li> <a href="tel:1-919-368-3369">(919) 368-3369</a></li>
+              <li><a href="fullstack11235@gmail.com">email</a></li>
            </ul>
 
         </div>

@@ -30,8 +30,8 @@ class Contact extends Component {
                 {street} <br />
                 {city}, {state} {zip}
                 <br />
-                <span>{phone}</span><br />
-                {email} <br />
+                <a href="tel:1-919-368-3369">{phone}</a><br />
+                <a href="fullstack11235@gmail.com">{email}</a> <br />
               </p>
             </div>
           </aside>
