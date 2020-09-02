@@ -224,11 +224,12 @@ ul#nav li.current a { color: #F06000; }
 #about .main-col { padding-right: 5%; }
 #about .download .button {
    margin-top: 6px;
-   background: #444;
+   background: #FF0000;
+   color: white;
 }
 #about .download .button:hover {
-   background: #fff;
-   color: #2B2B2B;
+   background: white;
+   color: #FF0000;
 }
 #about .download .button i {
    margin-right: 15px;
@@ -550,6 +551,7 @@ call-to-action .button {
 }
 #testimonials blockquote cite {
    display: block;
+   margin-bottom: 40px;
    float: right;
    font-size: 20px;
    font-style: normal;
