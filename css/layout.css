@@ -192,10 +192,10 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: #2B2B2B;
-   padding-top: 96px;
-   padding-bottom: 66px;
-   overflow: hidden;
+    background: #2B2B2B;
+    padding-top: 36px;
+    padding-bottom: 20px;
+    overflow: hidden;
 }
 
 #about a, #about a:visited  { color: #fff; }
@@ -212,8 +212,8 @@ ul#nav li.current a { color: #F06000; }
 }
 #about .profile-pic {
    position: relative;
-   width: 150px;
-   height: 150px;
+   width: 95%;
+   height: 95%;
    border-radius: 25%;
 }
 #about .contact-details { width: 41.66667%; }
@@ -293,15 +293,15 @@ ul#nav li.current a { color: #F06000; }
 
 #portfolio {
    background: #ebeeee;
-   padding-top: 90px;
-   padding-bottom: 60px;
+   padding-top: 56px;
+   padding-bottom: 20px;
 }
 #portfolio h1 {
-   font: 15px/24px 'opensans-semibold', sans-serif;
+   /* font: 18px/24px 'opensans-bold', sans-serif; */
    text-transform: uppercase;
-   letter-spacing: 1px;
-   text-align: center;
-   margin-bottom: 48px;
+   letter-spacing: 3px;
+   color: #fff;
+   margin-bottom: 18px;
    color: #95A3A3;
 }
 
@@ -509,8 +509,8 @@ call-to-action .button {
    overflow: hidden;
 }
 #testimonials .text-container {
-   padding-top: 96px;
-   padding-bottom: 66px;
+    padding-top: 56px;
+    padding-bottom: 20px;
 }
 #testimonials h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
@@ -518,7 +518,7 @@ call-to-action .button {
    letter-spacing: 3px;
    color: #fff;
 }
-#testimonials h1 span { display: none; }
+#testimonials h1 span { display: inside; }
 #testimonials .header-col { padding-top: 9px; }
 #testimonials .header-col h1:before {
    font-family: 'FontAwesome';
@@ -872,9 +872,7 @@ footer .social-links li:first-child { margin-left: 0; }
   white-space: pre-wrap;
 }
 
-#portfolio h1{
-  font-size: 2rem;
-}
+
 
 .feature-item{
   text-align: center;
