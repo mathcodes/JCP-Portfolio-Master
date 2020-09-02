@@ -115,26 +115,29 @@
      
       {
         "title":"Super Pantry Buddy",
-        "category":"MongoDB, React, Express, Node, Bulma, ChartJS, Mongo Atlas", 
+        "technology":"MongoDB, React, Express, Node, Bulma, ChartJS, Mongo Atlas", 
+        "description":"This full-stack group project has users log in and search for recipes by entering in ingredients they have, as well as other filtering options. Recipes can be saved to user's library, deleted from library, and viewed with more details including detailed instructions and a full ingredient list.",
         "image":"./superPantryBuddy.jpg",
         "url":"https://superpantrybuddy.herokuapp.com/"
       },
       {
         "title":"Mars Project",
-        "category":"Node, Express, Handlebars, MySQL, Sequelize ORM, APIs", 
+        "technology":"Node, Express, Handlebars, ChartJS, MySQL, Sequelize ORM, APIs", 
+        "description":"This is a group project utilizing databases and the servers and routes necessary to do save data to the back end. Users can login and signup to be notified of X-Space launches, as well as view the weather on Mars as text as well as charts using ChartJS.",
         "image":"./MarsProject.png",
         "url":"https://team-5-project-2.herokuapp.com/"
       },
-   
       {
         "title":"The Weekly Stack",
-        "category":"Side project: a blog for networking and collaborating.",
+        "technology":"HTML, CSS, JS, Wordpress",
+        "description":"This is a blog serving as a side project. The idea behind the blog is to create a site for junior developers which is created by junior to mid-level developers.",
         "image":"./weeklyStack.png",
         "url":"http://www.weekly-stack.com"
       },
       {
         "title":"Coder's Collective",
-        "category":"MySQL, Node, Express, Handlebars, ORM",
+        "technology":"MySQL, Node, Express, Handlebars, ORM",
+        "description":"This is a solo project built off a homework assignment. I completed the assignment and saw much more use of the technologies and concepts learned than the assignment called for, so I improved the application, changing input to include text AND images in an effort to create a collection of solid resources (mainly images) to help coders find quick and easy-to-use resources on the fly.",
         "image":"./codersCollective.png",
         "url":"https://coderscollective.herokuapp.com/coders"
       }
