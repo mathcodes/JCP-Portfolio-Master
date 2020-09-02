@@ -115,26 +115,29 @@
      
       {
         "title":"Super Pantry Buddy",
-        "category":"MongoDB, React, Express, Node, Bulma, ChartJS, Mongo Atlas", 
+        "technology":"MongoDB, React, Express, Node, Bulma, ChartJS, Mongo Atlas", 
+        "description":"This full-stack group project has users log in and search for recipes by entering in ingredients they have, as well as other filtering options. Recipes can be saved to user's library, deleted from library, and viewed with more details including detailed instructions and a full ingredient list.",
         "image":"./superPantryBuddy.jpg",
         "url":"https://superpantrybuddy.herokuapp.com/"
       },
       {
         "title":"Mars Project",
-        "category":"Node, Express, Handlebars, MySQL, Sequelize ORM, APIs", 
+        "technology":"Node, Express, Handlebars, MySQL, Sequelize ORM, APIs", 
+        "description":"This full-stack group project has users log in and search for recipes by entering in ingredients they have, as well as other filtering options. Recipes can be saved to user's library, deleted from library, and viewed with more details including detailed instructions and a full ingredient list.",
         "image":"./MarsProject.png",
         "url":"https://team-5-project-2.herokuapp.com/"
       },
    
       {
         "title":"The Weekly Stack",
-        "category":"Side project: a blog for networking and collaborating.",
+        "technology":"Side project: a blog for networking and collaborating.",
+        "description":"This full-stack group project has users log in and search for recipes by entering in ingredients they have, as well as other filtering options. Recipes can be saved to user's library, deleted from library, and viewed with more details including detailed instructions and a full ingredient list.",
         "image":"./weeklyStack.png",
         "url":"http://www.weekly-stack.com"
       },
       {
         "title":"Coder's Collective",
-        "category":"MySQL, Node, Express, Handlebars, ORM",
+        "technology":"MySQL, Node, Express, Handlebars, ORM",
         "image":"./codersCollective.png",
         "url":"https://coderscollective.herokuapp.com/coders"
       }
