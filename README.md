@@ -1,9 +1,28 @@
-# Tim Baker Development 
-![ReactJS Resume Website](readme.jpg?raw=true "ReactJS Resume Website")
-### <a href="http://timbakerdev.com/">Check It Out Here</a> 
+# Jon Christie's Portfolio
 
-## Description
-This is my personal resume website built with ReactJS. I am using my own React resume website template that can be found <a href="https://github.com/tbakerx/react-resume-template">HERE.</a>
+![badge](https://img.shields.io/badge/Skill-HTML-orange) ![badge](https://img.shields.io/badge/Skill-CSS-blue) ![badge](https://img.shields.io/badge/Skill-JS-yellow) ![badge](https://img.shields.io/badge/Skill-nodejs-green) ![badge](https://img.shields.io/badge/Skill-React-darkblue) 
 
-## I'm looking for work
-I am currently travelling Southeast Asia following my University studies but I will be actively looking for work when my trip is over. My location preference is Victoria, BC as my girlfriend will return to school there after our travels but I am open to remote work and can potentially make other arrangements if the right job comes along. 
+[![GitHub commits](https://img.shields.io/github/commits-since/mathcodes/jonchristieportfolio/v1.0.0.svg)](https://GitHub.com/mathcodes/jonchristieportfolio/commit/) 
+
+## Table of Contents
+  - [Link](#link) 
+  - [Licenses](#licenses)
+  - [Context](#context)
+  - [Contact](#contact)
+
+## Link
+Deployed link: [Portfolio](https://mathcodes.github.io/JCP-Portfolio-Master/).
+
+## Licenses
+<a href="https://opensource.org/licenses/MIT">
+<img src="https://img.shields.io/badge/License-MIT-green" alt="MIT"></a>
+
+## Context
+[CLICK HERE](https://jonchristieportfolio.herokuapp.com/) to check out my portfolio. As expected you will find some of my work as a full stack developer, mostly at this point comprising of projects and assignments from bootcamp along with my own side-projects. I am just now, in the August of 2020, finishing up with bootcamp but come with years of experience in education, sales, customer service, and even a few years as a web developer. Enjoy and use the contact info to get in touch with me about any positions or freelance work you would like to discuss. 
+
+## Contact
+<img src ="https://avatars0.githubusercontent.com/u/17928947?v=4" alt="Github profile image" width="80px" height="80px" />
+
+__Jon Christie__ 
+
+GitHub: [mathcodes](https://github.com/mathcodes) 
