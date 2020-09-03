@@ -4,14 +4,13 @@
     "firstName":"Jon",
     "lastName":"Christie",
     "occupation":"Full-Stack Boot Camp Student",
-    "description":"smart, friendly, passionate and eager Full Stack Developer with a background in Math, Music, and Education.",
     "image":"./headshot.jpg",
-    "bio":"Former Mathematics Curriculum Specialist, High School Teacher, and lifelong musician turns to Full-Stack Web Development specializing in education and innovation. An effective and friendly communicator who collaborates with people at all organizational levels to achieve company objectives. A creative team member who finds intuitive methods to continually increase the team’s throughput.",
-    "contactmessage":"Thank you for visiting my portfolio. You can contact me using the contact information provided, or feel free to fill out the form and let me know about available jobs or projects. I look forward to hearing from you soon!",
+    "bio":"Former Mathematics Curriculum Specialist, High School Teacher, and lifelong musician turns to Full-Stack Web Development specializing in education and innovation.",
+    "contactmessage":"Thank you for visiting my portfolio. You can contact me using my contact information by using a social media link. Let's connect!",
     "email": "fullstack11235@gmail.com",
     "phone": "(919) 368-3369",
     "address":{
-      "street":"106 Barbee Ct",
+      "street":"106 Barbee Ct.",
       "city":"Carrboro",
       "state":"NC",
       "zip": "27510"

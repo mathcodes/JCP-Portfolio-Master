@@ -7,21 +7,22 @@ class Portfolio extends Component {
       var projects = this.props.data.projects.map(function(projects){
         var projectImage = 'images/portfolio/'+projects.image;
         return <div key={projects.title} className="columns portfolio-item">
-           <div className="item-wrap bgrid-quarters .s-bgrid-halves cf">
+           <div className="item-wrap bgrid-thirds .s-bgrid-halves cf">
             <a href={projects.url} title={projects.title}>
               <img className="imgPortfolio" alt={projects.title} src={projectImage} />
               
                <div className="overlay">
                   <div className="portfolio-item-meta">
-                  <h5>{projects.title}</h5>
-                      <h6>Technology Used:</h6>
+                  <h3>{projects.title}</h3>
+                      <h4 className="h6PortHov">Technology Used:</h4>
                       <p>{projects.technology}</p>
-                      
+                  <h4 className="h6PortHov">Description:</h4>
+                  <p>{projects.description}</p>
                   </div>
                 </div>
             </a>
-            <h6>Description:</h6>
-                      <p>{projects.description}</p>
+            <h6 className="descr">Description:</h6>
+                      <p className="descr">{projects.description}</p> 
           </div>
         </div>
       })
@@ -32,14 +33,14 @@ class Portfolio extends Component {
 
       <div className="row">
 
-         <div className="twelve columns collapsed">
+       
 
             <h1><span>Portfolio</span></h1>
 
-            <div id="portfolio-wrapper" className="bgrid-quarters .s-bgrid-halves cf">
+            <div id="portfolio-wrapper" className="bgrid-fifths .s-bgrid-halves cf push-1">
                 {projects}
             </div>
-          </div>
+       
       </div>
    </section>
     );
