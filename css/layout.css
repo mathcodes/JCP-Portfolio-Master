@@ -165,7 +165,7 @@ header .scrolldown a:hover { color: #00becc; }
 ul#nav {
    min-height: 48px;
    width: auto;
-   background-color: rgba(0,0,0, 0.6);
+   background-color: rgba(0,0,0, 0.4);
    /* center align the menu */
    text-align: center;
 }
@@ -196,7 +196,7 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #F06000; }
+ul#nav li.current a { color: #d35400; }
 
 
 /* ------------------------------------------------------------------------------------------------------------------------------------ */
@@ -977,6 +977,7 @@ footer .social-links li:first-child { margin-left: 0; }
    margin: 13px 0 11px 11px;
    padding: 0;
    font-size: 40px;
+   color: #00becc;
 }
  
 .descr {
