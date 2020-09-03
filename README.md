@@ -11,14 +11,14 @@
   - [Contact](#contact)
 
 ## Link
-Deployed link: [Portfolio](https://github.com/mathcodes/JCP-Portfolio-Master).
+Deployed link: [Portfolio](https://github.com/mathcodes/jcp2.0.1).
 
 ## Licenses
 <a href="https://opensource.org/licenses/MIT">
 <img src="https://img.shields.io/badge/License-MIT-green" alt="MIT"></a>
 
 ## Context
-[CLICK HERE](https://github.com/mathcodes/JCP-Portfolio-Master) to check out my portfolio. As expected you will find some of my work as a full stack developer, mostly at this point comprising of projects and assignments from bootcamp along with my own side-projects. I am just now, in the August of 2020, finishing up with bootcamp but come with years of experience in education, sales, customer service, and even a few years as a web developer. Enjoy and use the contact info to get in touch with me about any positions or freelance work you would like to discuss. 
+[CLICK HERE](https://github.com/mathcodes/jcp2.0.1) to check out my portfolio. As expected you will find some of my work as a full stack developer, mostly at this point comprising of projects and assignments from bootcamp along with my own side-projects. I am just now, in the August of 2020, finishing up with bootcamp but come with years of experience in education, sales, customer service, and even a few years as a web developer. Enjoy and use the contact info to get in touch with me about any positions or freelance work you would like to discuss. 
 
 ## Contact
 <img src ="https://avatars0.githubusercontent.com/u/17928947?v=4" alt="Github profile image" width="80px" height="80px" />
