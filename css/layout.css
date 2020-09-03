@@ -360,11 +360,14 @@ ul#nav li.current a { color: #F06000; }
 
 /* Portfolio Content */
 #portfolio-wrapper .columns { margin-bottom: 36px; }
+
 .portfolio-item .item-wrap {
-   background: #fff;
-   overflow: hidden;
-   position: relative;
-   height: 550px;
+    margin: 0 5px;
+    background: #fff;
+    overflow: hidden;
+    position: relative;
+    height: 550px;
+    width: 400px;
    -webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
@@ -896,11 +899,7 @@ footer .social-links {
    padding: 15px;
    font-size: 30px;
 }
-.fa:hover {
-   margin: 18px 0 11px 11px;
-   padding: 0;
-   font-size: 40px;
-}
+
 footer .social-links li {
     display: inline-block;
     margin: 0;
@@ -970,8 +969,16 @@ footer .social-links li:first-child { margin-left: 0; }
     -webkit-font-smoothing: antialiased;
     letter-spacing: 30px;
     text-align: center;
+       margin: 18px 0 11px 11px;
+   padding: 0;
+   font-size: 30px;
 }
-
+.fa:hover {
+   margin: 13px 0 11px 11px;
+   padding: 0;
+   font-size: 40px;
+}
+ 
 .descr {
    padding:5px;
  color:#222222;
