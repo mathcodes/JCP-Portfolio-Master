@@ -12,7 +12,7 @@ class Portfolio extends Component {
               <img className="imgPortfolio" alt={projects.title} src={projectImage} />
               
                <div className="overlay">
-                  <div className="portfolio-item-meta">
+                  <div className="portfolio-item-meta" >
                   <h3>{projects.title}</h3>
                       <h4 className="h6PortHov">Technology Used:</h4>
                       <p>{projects.technology}</p>

@@ -697,7 +697,7 @@ properly.
 .first { clear: left; }   /* first column in default screen */
 .s-first { clear: none; } /* first column in smaller screens */
 
-/* smaller screens
+/* /* smaller screens
 --------------------------------------------------------------- */
 @media only screen and (max-width: 900px) {
 
@@ -750,9 +750,9 @@ properly.
 
 /* mobile narrow
 --------------------------------------------------------------- */
-@media only screen and (max-width: 460px) {
+@media only screen and (max-width: 376px) {
 
-   .row { width: auto; }
+   .row { width: 370 px; }
 
 }
 
@@ -797,4 +797,4 @@ properly.
 	margin-left: auto !important;
 	margin-right: auto !important;
 	text-align: center !important;
-}
+} */

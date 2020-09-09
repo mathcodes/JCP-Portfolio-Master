@@ -367,7 +367,7 @@ ul#nav li.current a { color: #d35400; }
     overflow: hidden;
     position: relative;
     height: 550px;
-    width: 400px;
+    /* width: 400px; */
    -webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;

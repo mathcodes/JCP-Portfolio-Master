@@ -1,0 +1,9 @@
+Sub RemoveErrorIDs()
+'
+trace
+    Dim LastRow As Long, n As Long
+    LastRow = Range("C10000").End(xlUp).Row
+    For n = LastRow To 1 Step -1
+        If Cells(n, 23).Value < 1 Then Cells(n, 23).EntireRow.Delete
+    Next n
+End Sub
