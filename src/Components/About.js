@@ -47,7 +47,7 @@ class About extends Component {
                    web developer 20 years ago?" Well hind sight is 20-20, right? Or 
               is it? <br /><br />Either way, I've gathered quite an array of usefull skills
                    to bring to the web industry, and whatever
-              lead me to the room I'm in today has provide me, and your company, with a
+              led me to the room I'm in today has provide me, and your company, with a
               fresh mind, eager for problems to solve, time to save, lives to enrich, and money to make. In
               addition to my coding-related experiences I have been keeping the
               actual practice and implementation of coding languages and design close by my
