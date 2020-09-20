@@ -750,9 +750,12 @@ properly.
 
 /* mobile narrow
 --------------------------------------------------------------- */
-@media only screen and (max-width: 376px) {
+@media only screen and (max-width: 400px) {
 
    .row { width: 370 px; }
+   .overlay{
+      width:75%;
+   }
 
 }
 
