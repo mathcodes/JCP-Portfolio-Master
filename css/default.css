@@ -2,7 +2,7 @@
 =====================================================================
 *   Ceevee v1.0 Default Stylesheet
 *   url: styleshout.com
-*   03-17-2014
+*   0¡-17-2014
 =====================================================================
 
 TOC:
@@ -153,7 +153,6 @@ body {
 --------------------------------------------------------------------- */
 
 h1, h2, h3, h4, h5, h6 {
-   color: #DADADA;
 	font-family: 'opensans-bold', sans-serif;
    font-weight: normal;
 }
@@ -697,7 +696,7 @@ properly.
 .first { clear: left; }   /* first column in default screen */
 .s-first { clear: none; } /* first column in smaller screens */
 
-/* smaller screens
+/* /* smaller screens
 --------------------------------------------------------------- */
 @media only screen and (max-width: 900px) {
 
@@ -750,9 +749,12 @@ properly.
 
 /* mobile narrow
 --------------------------------------------------------------- */
-@media only screen and (max-width: 460px) {
+@media only screen and (max-width: 400px) {
 
-   .row { width: auto; }
+   .row { width: 370 px; }
+   .overlay{
+      width:75%;
+   }
 
 }
 
@@ -797,4 +799,4 @@ properly.
 	margin-left: auto !important;
 	margin-right: auto !important;
 	text-align: center !important;
-}
+} */
