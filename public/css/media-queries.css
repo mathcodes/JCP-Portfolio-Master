@@ -51,9 +51,32 @@
    }
    /* nav-wrap */
    #nav-wrap {
-      font: 11px 'opensans-bold', sans-serif;
-      letter-spacing: 1.5px;
+      font: 12px 'opensans-bold', sans-serif;
+      background: transparent !important;
+      letter-spacing: 1.5px;  
+      position: fixed;
+      top: 0;
+      width:100%;
+
    }
+   #nav-wrap > a {
+	   width: 48px;
+		height: 48px;
+		text-align: right;
+		background-color: #CC5200;
+		/* position: relative; I’m  */
+      border: none;
+      float: none;
+
+      font: 0/0 a;
+      text-shadow: none;
+      color: transparent;
+
+      position: relative;
+      top: 0px;
+      right: 30px;
+   }
+ 
 
 
    /* About Section
@@ -139,17 +162,16 @@
       font: 12px 'opensans-bold', sans-serif;
       background: transparent !important;
       letter-spacing: 1.5px;  
-      width: auto;
       position: fixed;
       top: 0;
-      right: 0;
+
    }
    #nav-wrap > a {
 	   width: 48px;
 		height: 48px;
-		text-align: left;
+		text-align: right;
 		background-color: #CC5200;
-		position: relative;
+		/* position: relative; I’m  */
       border: none;
       float: right;
 
@@ -171,33 +193,33 @@
 		right: 25%;
 		content: '';
 	}
-   #nav-wrap > a:after { top: 60%; }
+   #nav-wrap > a:after { top: 80%; }
 
    /* toggle buttons */
 	#nav-wrap:not( :target ) > a:first-of-type,
 	#nav-wrap:target > a:last-of-type  {
-	   display: block;
+	   /* display: block; */
 	}
 
    /* hide menu panel */
    #nav-wrap ul#nav {
       height: auto;
-		display: none;
+
       clear: both;
-      width: auto; 
-      float: right;     
+      /* width: auto;  */
+      /* float: right;      */
 
       position: relative;
-      top: 12px;
+      /* top: 12px; */
       right: 0;
    }
 
    /* display menu panels */
 	#nav-wrap:target > ul#nav	{
-	   display: block;
+	   /* display: block; */
       padding: 30px 20px 48px 20px;
       background: #1f2024;
-      margin: 0 30px;
+      /* margin: 0 30px; */
       clear: both;
    }
 
@@ -206,16 +228,14 @@
       height: auto;      
       margin: 0 auto; 
       padding: 0 4%;           
-      text-align: left;
+      text-align: right;
       border-bottom: 1px solid #2D2E34;
       border-bottom-style: dotted; 
    }
   
    ul#nav li a {  
       display: block;    
-      margin: 0;
-      padding: 0;      
-      margin: 12px 0; 
+     
       line-height: 16px; /* reset line-height from 48px */
       border: none;
    }  
@@ -253,8 +273,8 @@
    -------------------------------------------------------------------- */
    #about .profile-pic { display: none; }
    #about .download .button {
-      width: 100%;
-      text-align: center;
+      width: 50%;
+ 
       padding: 15px 20px;
    }
    #about .main-col { padding-right: 30px; }
@@ -503,4 +523,4 @@ header .social li { margin: 0 6px; }
 footer .social-links { font-size: 20px; }
 footer .social-links li { margin-left: 14px; }   
 
-}
+
