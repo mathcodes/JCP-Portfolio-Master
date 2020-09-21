@@ -51,9 +51,32 @@
    }
    /* nav-wrap */
    #nav-wrap {
-      font: 11px 'opensans-bold', sans-serif;
-      letter-spacing: 1.5px;
+      font: 12px 'opensans-bold', sans-serif;
+      background: transparent !important;
+      letter-spacing: 1.5px;  
+      position: fixed;
+      top: 0;
+      width:100%;
+
    }
+   #nav-wrap > a {
+	   width: 48px;
+		height: 48px;
+		text-align: right;
+		background-color: #CC5200;
+		/* position: relative; I’m  */
+      border: none;
+      float: none;
+
+      font: 0/0 a;
+      text-shadow: none;
+      color: transparent;
+
+      position: relative;
+      top: 0px;
+      right: 30px;
+   }
+ 
 
 
    /* About Section
@@ -139,10 +162,9 @@
       font: 12px 'opensans-bold', sans-serif;
       background: transparent !important;
       letter-spacing: 1.5px;  
-      width: auto;
       position: fixed;
       top: 0;
-      right: 0;
+
    }
    #nav-wrap > a {
 	   width: 48px;
@@ -176,7 +198,7 @@
    /* toggle buttons */
 	#nav-wrap:not( :target ) > a:first-of-type,
 	#nav-wrap:target > a:last-of-type  {
-	   display: block;
+	   /* display: block; */
 	}
 
    /* hide menu panel */
@@ -184,7 +206,7 @@
       height: auto;
 
       clear: both;
-      width: auto; 
+      /* width: auto;  */
       /* float: right;      */
 
       position: relative;
@@ -213,9 +235,7 @@
   
    ul#nav li a {  
       display: block;    
-      margin: 0;
-      padding: 0;      
-      /* margin: 12px 0;  */
+     
       line-height: 16px; /* reset line-height from 48px */
       border: none;
    }  

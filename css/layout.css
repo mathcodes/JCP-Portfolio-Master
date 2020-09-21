@@ -148,14 +148,16 @@ header .scrolldown a:hover { color: #00becc; }
 /* nav-wrap */
 #nav-wrap {
    font: 12px 'opensans-bold', sans-serif;
-   width: 100%;
+  
    text-transform: uppercase;
    letter-spacing: 2.5px;
    margin: 0 auto;
    z-index: 100;
    position: fixed;
-   left: 0;
+   right: 0;
    top: 0;
+ 
+ 
 }
 .opaque { background-color: #333; }
 
@@ -163,7 +165,6 @@ header .scrolldown a:hover { color: #00becc; }
 #nav-wrap > a.mobile-btn { display: none; }
 
 ul#nav {
-   min-height: 48px;
    width: auto;
    background-color: rgba(0,0,0, 0.4);
    /* center align the menu */
@@ -172,7 +173,6 @@ ul#nav {
 ul#nav li {
    position: relative;
    list-style: none;
-   height: 48px;
    display: inline-block;
 }
 
@@ -182,17 +182,16 @@ ul#nav li a {
 /* 8px padding top + 8px padding bottom + 32px line-height = 48px */
 
    display: inline-block;
-   padding: 8px 13px;
-   line-height: 32px;
+   padding: 2px 2px;
 	text-decoration: none;
    text-align: left;
    color: #fff;
 
-	-webkit-transition: color .2s ease-in-out;
-	-moz-transition: color .2s ease-in-out;
-	-o-transition: color .2s ease-in-out;
-	-ms-transition: color .2s ease-in-out;
-	transition: color .2s ease-in-out;
+	-webkit-transition: color 2s ease-in-out;
+	-moz-transition: color .s ease-in-out;
+	-o-transition: color 2s ease-in-out;
+	-ms-transition: color 2s ease-in-out;
+	transition: color 2s ease-in-out;
 }
 
 ul#nav li a:active { background-color: transparent !important; }
@@ -363,8 +362,8 @@ ul#nav li.current a { color: #d35400; }
     background: #fff;
     overflow: hidden;
     position: relative;
-    height: 550px;
-    /* width: 400px; */
+    height: 650px;
+    width: 500px;
    -webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
@@ -422,7 +421,7 @@ ul#nav li.current a { color: #d35400; }
 .portfolio-item .item-wrap img {
    vertical-align: bottom;
 }
-.portfolio-item .portfolio-item-meta { padding: 18px }
+.portfolio-item .portfolio-item-meta { padding: 8px }
 .portfolio-item .portfolio-item-meta h5 {
    font: 14px/21px 'opensans-bold', sans-serif;
 }
