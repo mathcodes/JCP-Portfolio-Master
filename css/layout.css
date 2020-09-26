@@ -22,7 +22,10 @@
 /* a. General Styles
 /* ------------------------------------------------------------------ */
 
-body { background: #0f0f0f; }
+body { 
+   background: #0f0f0f; 
+   width: fit-content !important;
+}
 
 /* ------------------------------------------------------------------------------------------------------------------------------------ */
 /* ------------------------------------------------------------------------------------------------------------------------------------ */
@@ -161,7 +164,7 @@ header .scrolldown a:hover { color: #00becc; }
 
 
 ul#nav {
-   width: ;
+   
    background-color: rgba(0,0,0, 0.4);
    /* center align the menu */
    text-align: center;
@@ -184,7 +187,7 @@ ul#nav li a {
    color: #fff;
 
 	-webkit-transition: color 2s ease-in-out;
-	-moz-transition: color .s ease-in-out;
+	-moz-transition: color 2s ease-in-out;
 	-o-transition: color 2s ease-in-out;
 	-ms-transition: color 2s ease-in-out;
 	transition: color 2s ease-in-out;
