@@ -1,3 +1,35 @@
+Skip to content
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@mathcodes 
+mathcodes
+/
+jcp2.0.1
+1
+1
+0
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+jcp2.0.1/public/css/media-queries.css
+
+Jon Christie portfolio styling and sizing
+Latest commit deb9d80 5 days ago
+ History
+ 1 contributor
+526 lines (442 sloc)  17.3 KB
+  
 /* ================================================================== */
 /* ================================================================== */
 /* ================================================================== */
@@ -160,7 +192,6 @@
    -------------------------------------------------------------------- */
    #nav-wrap {
       font: 12px 'opensans-bold', sans-serif;
-      background: transparent !important;
       letter-spacing: 1.5px;  
       position: fixed;
       top: 0;
@@ -509,7 +540,7 @@ header .banner-text h1 {
 }
 header .banner-text h3 {
    font: 14px/1.9em 'librebaskerville-regular', sans-serif;
-   width: 90%;
+   width: 75%;
 }
 
 /* header social links */
@@ -523,4 +554,16 @@ header .social li { margin: 0 6px; }
 footer .social-links { font-size: 20px; }
 footer .social-links li { margin-left: 14px; }   
 
-
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Found 6 out of 6 items
