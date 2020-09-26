@@ -47,7 +47,7 @@ dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section, summary,
+footer, header, hgroup, menu, section, summary,
 time, mark, audio, video {
    margin: 0;
    padding: 0;
@@ -59,7 +59,7 @@ time, mark, audio, video {
 }
 
 article,aside,details,figcaption,figure,
-footer,header,hgroup,menu,nav,section {
+footer,header,hgroup,menu,section {
    display: block;
 }
 
@@ -751,21 +751,10 @@ properly.
 --------------------------------------------------------------- */
 @media only screen and (max-width: 400px) {
 
-   .row { width: 370 px; }
-   .overlay{
-      width:75%;
-   }
+
 
 }
-
-/* larger screens
---------------------------------------------------------------- */
-@media screen and (min-width: 1200px) {
-
-   .wide .row { max-width: 1180px; }
-
-}
-
+ 
 /* ------------------------------------------------------------------ */
 /* e. Others
 /* ------------------------------------------------------------------ */
