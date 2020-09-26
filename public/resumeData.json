@@ -128,9 +128,9 @@
       },
    
       {
-        "title":"The Weekly Stack",
-        "technology":"HTML, CSS, JS, Wordpress",
-        "description":"This is a blog serving as a side project. The idea behind the blog is to create a site for junior developers which is created by junior to mid-level developers.",
+        "title":"Fuel Up!",
+        "technology":"Agile Development Methodologies, Server-Side APIs Git Branch Workflow",
+        "description":"As a group we will create and execute a design that solves a real-world problem by integrating data received from multiple server-side API requests.",
         "image":"./weeklyStack.png",
         "url":"http://www.weekly-stack.com"
       },

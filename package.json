@@ -1,7 +1,7 @@
 {
   "name": "personalportfolio",
   "homepage": "http://mathcodes.github.io/jcp2.0.1/",
-  "version": "0.1.0",
+  "version": "0.1.4",
   "private": true,
   "dependencies": {
     "jquery": "^3.5.1",
