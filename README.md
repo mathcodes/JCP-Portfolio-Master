@@ -18,7 +18,7 @@ Deployed link: [Portfolio](https://mathcodes.github.io/jcp2.0.1/).
 <img src="https://img.shields.io/badge/License-MIT-green" alt="MIT"></a>
 
 ## Context
-[CLICK HERE](https://mathcodes.github.io/jcp2.0.1/) to check out my portfolio. As expected you will find some of my work as a full stack developer, mostly at this point comprising of projects andhttps://mathcodes.github.io/jcp2.0.1/ion, sales, customer service, and even a few years as a web developer. Enjoy and please use the contact info to get in touch with me about any positions or freelance work you would like to discuss. 
+[CLICK HERE](https://mathcodes.github.io/jcp2.0.1/) to check out my portfolio. Enjoy some of my work as I become a full-stack developer, mostly at this point comprising of projects andhttps://mathcodes.github.io/jcp2.0.1/ion, sales, customer service, and even a few years as a web developer. Enjoy and please use the contact info to get in touch with me about any positions or freelance work you would like to discuss. 
 
 ## Contact
 <img src ="https://avatars0.githubusercontent.com/u/17928947?v=4" alt="Github profile image" width="80px" height="80px" />
