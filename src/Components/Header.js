@@ -1,5 +1,22 @@
 import React, { Component } from "react";
 
+
+  function startTime() {
+  var today = new Date();
+  var h = today.getHours();
+  var m = today.getMinutes();
+  var s = today.getSeconds();
+  m = checkTime(m);
+  s = checkTime(s);
+  document.getElementById('txt').innerHTML =
+  h + ":" + m + ":" + s;
+  var t = setTimeout(startTime, 500);
+}
+function checkTime(i) {
+  if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+  return i;
+}
+
 class Header extends Component {
   render() {
     if (this.props.data) {
@@ -57,15 +74,14 @@ class Header extends Component {
             </h1>
             <h3>{bio}</h3>
             <hr />
-            <p id="demoTime"></p>
-<h6>It looks like its about <script>
-var myVar = setInterval(myTimer, 1000);
+          
+            
 
-function myTimer() {
-  var d = new Date();
-  document.getElementById("demoTime").innerHTML = d.toLocaleTimeString();
-}
-</script></h6>
+<div id="txt"></div>
+
+
+  
+
 
           </div>
         </div>
