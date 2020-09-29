@@ -57,13 +57,22 @@ class Header extends Component {
             </h1>
             <h3>{bio}</h3>
             <hr />
-            <ul className="social">{networks}</ul>
+            <p id="demoTime"></p>
+<h6>It looks like its about <script>
+var myVar = setInterval(myTimer, 1000);
+
+function myTimer() {
+  var d = new Date();
+  document.getElementById("demoTime").innerHTML = d.toLocaleTimeString();
+}
+</script></h6>
+
           </div>
         </div>
 
         <p className="scrolldown">
           <a className="smoothscroll" href="#about">
-            <i className="icon-down-circle"></i>
+           
           </a>
         </p>
       </header>
