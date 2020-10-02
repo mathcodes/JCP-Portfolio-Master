@@ -19,6 +19,7 @@ class Portfolio extends Component {
                   <h4 className="h6PortHov">Description:</h4>
                   <p>{projects.description}</p>
                   </div>
+                  
                 </div>
             </a>
             <h6 className="descr">Description:</h6>

@@ -15,8 +15,8 @@
       "state":"NC",
       "zip": "27510"
     },
-    "website": "https://jonchristieportfolio.herokuapp.com/",
-    "resumedownload":"https://mathcodes.github.io/Portfolio/Jon_Christie_Resume_Summer_2020.pdf",
+    "website": "https://mathcodes.github.io/jcp2.0.1/",
+    "resumedownload":"https://github.com/mathcodes/jcp2.0.1/blob/master/public/images/FrontEndDeveloper_JonChristie.pdf",
     "social":[
       {
         "name":"github",
@@ -34,9 +34,9 @@
         "className":"fa fa-twitter"
       },
       {
-        "name":"google-plus",
-        "url":"http://googleplus.com/jonpchristie",
-        "className":"fa fa-google-plus"
+        "name":"soundcloud",
+        "url":"https://soundcloud.com/jonchristie",
+        "className":"fas fa-soundcloud"
       },
       {
         "name":"linkedin",
@@ -128,11 +128,11 @@
       },
    
       {
-        "title":"Fuel Up!",
-        "technology":"Agile Development Methodologies, Server-Side APIs Git Branch Workflow",
+        "title":"Eclectic Electrics",
+        "technology":"Server-Side APIs, ",
         "description":"As a group we will create and execute a design that solves a real-world problem by integrating data received from multiple server-side API requests.",
         "image":"./weeklyStack.png",
-        "url":"http://www.weekly-stack.com"
+        "url":"https://team6diamondplatipi.github.io/TechnicallyAMammal/"
       },
       {
         "title":"Book Search",

@@ -2,25 +2,25 @@ import React, { Component } from "react";
 
 class Footer extends Component {
   render() { 
-    if (this.props.data) {
-      var networks = this.props.data.social.map(function (network) {
-        <div className="row" key={network.name} />
-        return (
+    // if (this.props.data) {
+    //   var networks = this.props.data.social.map(function (network) {
+    //     <div className="row" key={network.name} />
+    //     return (
           
-          <div className="two columns">
-            <a href={network.url}>
-              <i className={network.className}></i>
-            </a>
-          </div>
+    //       <div className="two columns">
+    //         <a href={network.url}>
+    //           <i className={network.className}></i>
+    //         </a>
+    //       </div>
           
-        );
-      });
-    }
+    //     );
+    //   });
+    // }
 
     return (
       <footer>
         <div className="row">
-          <div className="twelve columns social-links">{networks}</div>
+          {/* <div className="twelve columns social-links">{networks}</div> */}
           <br />{" "}
         </div>
         <ul className="copyright">
