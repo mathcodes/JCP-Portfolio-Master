@@ -135,11 +135,11 @@
         "url":"http://www.weekly-stack.com"
       },
       {
-        "title":"Coder's Collective",
+        "title":"Book Search",
         "technology":"MySQL, Node, Express, Handlebars, ORM",
-        "description":"This is a solo project built off a homework assignment. I completed the assignment and saw much more use of the technologies and concepts learned than the assignment called for, so I improved the application, changing input to include text AND images in an effort to create a collection of solid resources (mainly images) to help coders find quick and easy-to-use resources on the fly.",
-        "image":"./codersCollective.png",
-        "url":"https://coderscollective.herokuapp.com/coders"
+        "description":"This fully functioning application allows users to search for books which they can then use the provided link to purchase from Google Books. Users can also save books to view or purchase later. I took this on solo and was proud to have completed the goals and turned the UI into some a bit more original.",
+        "image":"./book-search.png",
+        "url":"https://jonsbooksearch.herokuapp.com"
       }
     ]
   },

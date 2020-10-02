@@ -74,7 +74,9 @@ class Header extends Component {
             </h1>
             <h3>{bio}</h3>
             <hr />
-          
+            <ul className="social">
+               {networks}
+            </ul>
             
 
 <div id="txt"></div>
