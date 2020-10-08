@@ -141,7 +141,7 @@ e. Others
     font-weight: normal;
     font-size: 15px;
     line-height: 30px;
-    color: #838C95;
+    color: #E6E8EB;
   
  
     -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
@@ -306,10 +306,13 @@ e. Others
  ol ol, ol ul { margin: 6px 0 6px 30px; }
  ul ul li, ul ol li,
  ol ol li, ol ul li { margin-bottom: 6px; }
- li { line-height: 18px; margin-bottom: 12px; }
+ li { line-height: 18px; margin-bottom: 12px;   }
  ul.large li { }
  li p { }
  
+ li{ 
+    color:rgb(208, 208, 208) ;
+ }
  /* ---------------------------------------------------------------------
  /*  Stats Tab Markup
  
@@ -626,13 +629,13 @@ e. Others
  .row.collapsed > .columns,
  .column.collapsed, .columns.collapsed  { padding: 0; }
  
- [class*="column"] + [class*="column"]:last-child { float: right; }
- [class*="column"] + [class*="column"].end { float: right; }
+ /* [class*="column"] + [class*="column"]:last-child { float: right; } */
+ /* [class*="column"] + [class*="column"].end { float: right; } */
  
  /* column widths */
  .row .one         { width: 8.33333%; }
  .row .two         { width: 16.66667%; }
- .row .three       { width: 25%; }
+ .row .three       { width: 25%;  }
  .row .four        { width: 33.33333%; }
  .row .five        { width: 41.66667%; }
  .row .six         { width: 50%; }
@@ -687,7 +690,7 @@ e. Others
  .bgrid-thirds [class*="column"]   { width: 33.33333%; }
  .bgrid-halves [class*="column"]   { width: 50%; }
  
- [class*="bgrid"] [class*="column"] + [class*="column"]:last-child { float: left; }
+ [class*="bgrid"] [class*="column"] + [class*="column"]:last-child { }
  
  /* Left clearing for block grid columns - columns that changes width in
  different screen sizes. Allows columns with different heights to align
@@ -789,3 +792,29 @@ e. Others
     margin-right: auto !important;
     text-align: center !important;
  }
+
+
+.portfolio-item{
+   float:left;
+}
+
+/* .cardcontainer {
+   display: grid;
+   grid-template-columns: repeat(auto-fill, 200px);
+   grid-auto-rows: 200px;
+   grid-gap: 10px;
+   justify-content: center;
+ } */
+
+ .item {
+   height: fit-content;
+   width: fit-content;
+   background-color: #d35400;
+   padding: 10px;
+   margin: 10px;
+ }
+
+ .row {
+   margin-right: 1px;
+   margin-left:  65px;
+}

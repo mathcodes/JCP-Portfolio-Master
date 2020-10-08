@@ -117,29 +117,34 @@
         "technology":"MongoDB, React, Express, Node, Bulma, ChartJS, Mongo Atlas", 
         "description":"This full-stack group project has users log in and search for recipes by entering in ingredients they have, as well as other filtering options. Recipes can be saved to user's library, deleted from library, and viewed with more details including detailed instructions and a full ingredient list.",
         "image":"./superPantryBuddy.jpg",
-        "url":"https://superpantrybuddy.herokuapp.com/"
+        "url":"https://superpantrybuddy.herokuapp.com/",
+        "repoUrl":"https://github.com/Super-Pantry-Buddy/spb"
+        
       },
       {
         "title":"Mars Project",
         "technology":"Node, Express, Handlebars, ChartJS, MySQL, Sequelize ORM, APIs", 
         "description":"This is a group project utilizing databases and the servers and routes necessary to do save data to the back end. Users can login and signup to be notified of X-Space launches, as well as view the weather on Mars as text as well as charts using ChartJS.",
         "image":"./MarsProject.png",
-        "url":"https://team-5-project-2.herokuapp.com/"
+        "url":"https://team-5-project-2.herokuapp.com/",
+        "repoUrl":"https://github.com/mathcodes/Project-2"
       },
    
       {
         "title":"Eclectic Electrics",
-        "technology":"Server-Side APIs, ",
-        "description":"As a group we will create and execute a design that solves a real-world problem by integrating data received from multiple server-side API requests.",
-        "image":"./weeklyStack.png",
-        "url":"https://team6diamondplatipi.github.io/TechnicallyAMammal/"
+        "technology":"Server-Side APIs, React, Mongo, ",
+        "description":"A self-motivated approach to learning how to create an ecommerce app with React. Users can save items in the shopping cart and get totals for hypothetical purchase.",
+        "image":"./EE.jpeg",
+        "url":"https://mathcodes.github.io/Eclectic-Electrics/",
+        "repoUrl":"https://github.com/mathcodes/Eclectic-Electrics"
       },
       {
         "title":"Book Search",
         "technology":"MySQL, Node, Express, Handlebars, ORM",
-        "description":"This fully functioning application allows users to search for books which they can then use the provided link to purchase from Google Books. Users can also save books to view or purchase later. I took this on solo and was proud to have completed the goals and turned the UI into some a bit more original.",
+        "description":"Solo project involving a new React-based Google Books Search app. This assignment requires you to create React components, work with helper/util functions, and utilize React lifecycle methods to query and display books based on user searches. You'll also use Node, Express and MongoDB. Users can save books to review or purchase later.",
         "image":"./book-search.png",
-        "url":"https://jonsbooksearch.herokuapp.com"
+        "url":"https://jonsbooksearch.herokuapp.com",
+        "repoUrl":"https://github.com/mathcodes/Book-Search"
       }
     ]
   },

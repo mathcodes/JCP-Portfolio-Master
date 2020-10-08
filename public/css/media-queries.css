@@ -162,7 +162,7 @@
       letter-spacing: 1.5px;  
       position: fixed;
       top: 0;
-
+      width: fit-content;
    }
    #nav-wrap > a {
 	   width: 48px;
@@ -219,22 +219,24 @@
       background: #1f2024;
       /* margin: 0 30px; */
       clear: both;
+      display: none;
    }
-
+ 
    ul#nav li {
-      display: block;
-      height: auto;      
-      margin: 0 auto; 
-      padding: 0 4%;           
-      text-align: right;
-      border-bottom: 1px solid #2D2E34;
-      border-bottom-style: dotted; 
+       display: none;
+       WIDTH: 100%;
+       margin: 0 auto;
+       padding: 0 4%;
+       text-align: right;
+       border-bottom: 1px solid #2D2E34;
+       border-bottom-style: dotted;
    }
   
+  
    ul#nav li a {  
-      display: block;    
+      display: none;    
      
-      line-height: 16px; /* reset line-height from 48px */
+      line-height: 12px; /* reset line-height from 48px */
       border: none;
    }  
 

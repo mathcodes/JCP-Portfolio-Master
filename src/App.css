@@ -1,7 +1,11 @@
 .newline{
   white-space: pre-wrap;
 }
-
+.col3right {
+  margin-left: 5px;
+  padding-left: 50px;
+  margin-left: 5px;
+}
 #portfolio h1{
   font-size: 2rem;
 }
@@ -20,3 +24,4 @@
 .warning{
   color: red;
 }
+

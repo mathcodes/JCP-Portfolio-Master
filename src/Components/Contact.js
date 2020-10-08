@@ -23,7 +23,7 @@ class Contact extends Component {
         <div className="row">
           <aside className="six columns addressFooter footer-widgets">
             <div className="widget widget_contact">
-              <h4>Address and Phone</h4>
+              <h4>Contact Details</h4>
               <p className="address">
                 {name}
                 <br />
@@ -37,39 +37,7 @@ class Contact extends Component {
           </aside>
           <aside className="three columns addressFooter footer-widgets"></aside>
           <aside className="three columns blogFooter footer-widgets">
-            <div className="widget widget_tweets">
-              <h5>Latest Posts from</h5>
-              <h6>
-                <a href="www.weekly-stack.com">www.weekly-stack.com</a>
-              </h6>
-
-              <ul id="weeklystack">
-                <li>
-                  •{" "}
-                  <a href="https://weekly-stack.com/state-ly-react/">
-                    “State”-ly React
-                  </a>
-                </li>
-                <li>
-                  •{" "}
-                  <a href="https://weekly-stack.com/the-benefits-of-a-coding-bootcamp/">
-                    The Benefits of a Coding Bootcamp
-                  </a>
-                </li>
-                <li>
-                  •{" "}
-                  <a href="https://weekly-stack.com/code-in-the-mirror/">
-                    “State”-ly React
-                  </a>
-                </li>
-                <li>
-                  •{" "}
-                  <a href="https://weekly-stack.com/why-the-weekly-stack/">
-                    Why the Weekly-Stack?
-                  </a>
-                </li>
-              </ul>
-            </div>
+            
           </aside>
         </div>
       </section>
