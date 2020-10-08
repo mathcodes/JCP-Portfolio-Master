@@ -239,25 +239,42 @@ ul#nav li.current a { color: #d35400; }
    height: 45%;
    border-radius: 25%;
 }
-#about .contact-details { width: 41.66667%; }
-#about .download {
-   width: 58.33333%;
+#about, .contact-details { width: 100%; }
+#about, .download {
+   /* width: 58.33333%; */
    padding-top: 6px;
 }
-#about .main-col { padding-right: 5%; }
-#about .download .button {
+#about, .main-col { padding-right: 5%; }
+ 
+
+.button, .buttonpdf {
    margin-top: 6px;
    background: #FF0000;
    color: white;
 }
-#about .download .button:hover {
+
+.ghbtn, .repobtn{
+   color: white;
+   text-align: center;
+   width: fit-content;
+}
+
+.repobtn{
+   background-color: #007217;
+   width: fit-content;
+}
+
+.ghbtn{
+   background-color:black;  
+}
+/* #about .download .button:hover {
    background: white;
    color: #FF0000;
 }
 #about .download .button i {
    margin-right: 15px;
    font-size: 20px;
-}
+} */
 
 
 /* ------------------------------------------------------------------------------------------------------------------------------------ */
@@ -349,6 +366,8 @@ ul#nav li.current a { color: #d35400; }
    letter-spacing: 3px;
    color: #fff;
    margin-bottom: 18px;
+   margin-left: 25%;
+   margin-right: 25%;
    color: #95A3A3;
 }
 
@@ -953,19 +972,20 @@ footer .social-links li:first-child { margin-left: 0; }
   color: red;
 }
 
-
 .fa {
-    display: inline-block;
-    font-family: FontAwesome;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 0;
-    -webkit-font-smoothing: antialiased;
-    letter-spacing: 30px;
-    text-align: center;
-       margin: 18px 0 11px 11px;
-   padding: 0;
+   display: inline-block;
+   font-family: FontAwesome;
+   font-style: normal;
+   font-weight: normal;
+   line-height: 0;
+   -webkit-font-smoothing: antialiased;
+   letter-spacing: 30px;
+   /* text-align: center; */
+   margin-left: 18px;
+   padding-left: 15px;
    font-size: 30px;
+   margin-top: 5px;
+   padding-top: 12px;
 }
 .fa:hover {
    margin: 13px 0 11px 11px;
