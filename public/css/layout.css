@@ -1,27 +1,3 @@
-/*
-=====================================================================
-*   Ceevee v1.0 Layout Stylesheet
-*   url: styleshout.com
-*   03-18-2014
-=====================================================================
-
-   TOC:
-   a. General Styles
-   b. Header Styles
-   c. About Section
-   d. Resume Section
-   e. Portfolio Section
-   f. Call To Action Section
-   g. Testimonials Section
-   h. Contact Section
-   i. Footer
-
-===================================================================== */
-
-/* ------------------------------------------------------------------ */
-/* a. General Styles
-/* ------------------------------------------------------------------ */
-
 body { background: #0f0f0f; }
 
 /* ------------------------------------------------------------------------------------------------------------------------------------ */
@@ -139,10 +115,10 @@ header .scrolldown a:hover { color: #00becc; }
 /* primary navigation
 --------------------------------------------------------------------- */
 #nav-wrap ul, #nav-wrap li, #nav-wrap a {
-	 margin: 0;
-	 padding: 0;
-	 border: none;
-	 outline: none;
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
 }
 
 /* nav-wrap */
@@ -155,13 +131,12 @@ header .scrolldown a:hover { color: #00becc; }
    z-index: 100;
    position: fixed;
    top: 0;
- 
+
 }
 .opaque { background-color: #333; }
 
 
 ul#nav {
-   width: ;
    background-color: rgba(0,0,0, 0.4);
    /* center align the menu */
    text-align: center;
@@ -174,17 +149,14 @@ ul#nav li {
 
 /* Links */
 ul#nav li a {
-
-/* 8px padding top + 8px padding bottom + 32px line-height = 48px */
-
    display: inline-block;
    padding: 8px 40px;
 	text-decoration: none;
    text-align: left;
    color: #fff;
-
+   transition: color 2s ease-in-out;
 	-webkit-transition: color 2s ease-in-out;
-	-moz-transition: color .s ease-in-out;
+	-moz-transition: color 2s ease-in-out;
 	-o-transition: color 2s ease-in-out;
 	-ms-transition: color 2s ease-in-out;
 	transition: color 2s ease-in-out;
@@ -215,10 +187,10 @@ ul#nav li.current a { color: #d35400; }
 /* ------------------------------------------------------------------------------------------------------------------------------------ */
 
 #about {
-    background: #0B0B0B;
-    padding-top: 36px;
-    padding-bottom: 20px;
-    overflow: hidden;
+   background: #0B0B0B;
+   padding-top: 36px;
+   padding-bottom: 20px;
+   overflow: hidden;
 }
 
 #about a, #about a:visited  { color: #fff; }
@@ -245,7 +217,7 @@ ul#nav li.current a { color: #d35400; }
    padding-top: 6px;
 }
 #about, .main-col { padding-right: 5%; }
- 
+
 
 .button, .buttonpdf {
    margin-top: 6px;
@@ -377,12 +349,12 @@ ul#nav li.current a { color: #d35400; }
 #portfolio-wrapper .columns { margin-bottom: 36px; }
 
 .portfolio-item .item-wrap {
-    margin: 0 5px;
-    background: #fff;
-    overflow: hidden;
-    position: relative;
-    height: 650px;
-    width: 500px;
+   margin: 0 5px;
+   background: #fff;
+   overflow: hidden;
+   position: relative;
+   height: 650px;
+   width: 500px;
    -webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
@@ -885,26 +857,26 @@ footer a:hover, footer a:focus { color: #fff; }
 
 /* copyright */
 footer .copyright {
-    margin: 0;
-    padding: 0;
- }
+   margin: 0;
+   padding: 0;
+}
 footer .copyright li {
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-    line-height: 24px;
+   display: inline-block;
+   margin: 0;
+   padding: 0;
+   line-height: 24px;
 }
 .ie footer .copyright li {
    display: inline;
 }
 footer .copyright li:before {
-    content: "\2022";
-    padding-left: 10px;
-    padding-right: 10px;
-    color: #095153;
+   content: "\2022";
+   padding-left: 10px;
+   padding-right: 10px;
+   color: #095153;
 }
 footer .copyright  li:first-child:before {
-    display: none;
+   display: none;
 }
 
 /* social links */
@@ -915,11 +887,11 @@ footer .social-links {
 }
 
 footer .social-links li {
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-    margin-left: 42px;
-    color: #F06000;
+   display: inline-block;
+   margin: 0;
+   padding: 0;
+   margin-left: 42px;
+   color: #F06000;
 }
 
 footer .social-links li:first-child { margin-left: 0; }
@@ -947,29 +919,29 @@ footer .social-links li:first-child { margin-left: 0; }
    color: #fff;
    font-size: 21px;
    line-height: 60px;
- 	border-radius: 100%;
+   border-radius: 100%; 
 }
 #go-top a:hover { background-color: #00becc; }
 
 .newline{
-  white-space: pre-wrap;
+white-space: pre-wrap;
 }
 
 
 
 .feature-item{
-  text-align: center;
-  margin-top:2.5em;
-  padding-left:2em;
-  padding-right:2em;
+text-align: center;
+margin-top:2.5em;
+padding-left:2em;
+padding-right:2em;
 }
 
 .center{
-  text-align: center;
+text-align: center;
 }
 
 .warning{
-  color: red;
+color: red;
 }
 
 .fa {
@@ -993,12 +965,12 @@ footer .social-links li:first-child { margin-left: 0; }
    font-size: 40px;
    color: #00becc;
 }
- 
+
 .descr {
    padding:5px;
- color:#000000;
+   color:#000000;
 }
 .h6PortHov{
    padding:5px 0;
- color:#000000;
+   color:#000000;
 }
