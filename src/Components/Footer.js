@@ -26,7 +26,7 @@ class Footer extends Component {
         <ul className="copyright">
           <li>
             {" "}
-            <a href="#">&copy; 2020 Jon Christie</a>
+            <a href="">&copy; 2020 Jon Christie</a>
           </li>
           <li>
             {" "}
