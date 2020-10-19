@@ -23,7 +23,7 @@ class Contact extends Component {
         <div className="row">
           <aside className="six columns addressFooter footer-widgets">
             <div className="widget widget_contact">
-              <h4>Contact Details</h4>
+              <h3>Contact Details</h3>
               <p className="address">
                 {name}
                 <br />
