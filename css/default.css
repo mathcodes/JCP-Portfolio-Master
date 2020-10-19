@@ -141,7 +141,7 @@ e. Others
     font-weight: normal;
     font-size: 15px;
     line-height: 30px;
-    color: #E6E8EB;
+     
   
  
     -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
@@ -464,13 +464,13 @@ e. Others
  input[type="reset"],
  input[type="button"] {
     font: 16px/30px 'opensans-bold', sans-serif;
-    background: #179038;
+ 
     display: inline-block;
     text-decoration: none;
     letter-spacing: 0;
     color: #fff;
-    padding: 12px 20px;
-    margin-bottom: 18px;
+    padding: 0 20px;
+    /* margin-bottom: 18px; */
     border: none;
     cursor: pointer;
     height: auto;
@@ -720,7 +720,7 @@ e. Others
  @media only screen and (max-width: 767px) {
  
     .row {
-       width: 460px;
+       width: 100%;
        margin: 0 auto;
        padding: 0;
     }
