@@ -131,12 +131,12 @@
       },
    
       {
-        "title":"Eclectic Electrics",
-        "technology":"Server-Side APIs, React, Mongo, ",
-        "description":"A self-motivated approach to learning how to create an ecommerce app with React. Users can save items in the shopping cart and get totals for hypothetical purchase.",
-        "image":"./EE.jpeg",
-        "url":"https://mathcodes.github.io/Eclectic-Electrics/",
-        "repoUrl":"https://github.com/mathcodes/Eclectic-Electrics"
+        "title":"Pick2Hand",
+        "technology":"2D Platformer, Sass, Babel, Firebase, Webpack",
+        "description":"Side project like many classic games with 3 levels that keeps track of high scores in a Firebase database",
+        "image":"./Pick2Hand.jpg",
+        "url":"https://github.com/mathcodes/pick2hand/",
+        "repoUrl":"https://mathcodes.github.io/pick2hand/"
       },
       {
         "title":"Book Search",
