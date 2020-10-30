@@ -127,7 +127,7 @@ header .scrolldown a:hover { color: #00becc; }
    width: 100%;
    text-transform: uppercase;
    letter-spacing: 2.5px;
-   margin: 0 6px;
+   /* margin: 0 6px; */
    z-index: 100;
    position: fixed;
    top: 0;
@@ -216,9 +216,9 @@ ul#nav li.current a { color: #d35400; }
    /* width: 58.33333%; */
    padding-top: 6px;
 }
-#about, #portfolio, #header, #testimonials, #footer, #contact {
-
-width: 100%;
+#root, #about, #portfolio, #header, #testimonials, #footer, #contact {
+   width: 100%;
+   min-width: fit-content;
 
 }
 
@@ -290,7 +290,7 @@ width: 100%;
    color: #fff;
    margin-bottom: 18px;
    /* margin-left: 25%; */
-   margin-right: 25%;
+   /* margin-right: 25%; */
    color: #222222;
 }
 
@@ -303,7 +303,7 @@ width: 100%;
 }
 
 .portfolio-item .item-wrap {
-   margin: 0 5px;
+   /* margin: 0 5px; */
    background: #fff;
    overflow: hidden;
    position: relative;
@@ -636,7 +636,7 @@ call-to-action .button {
     text-align: left;
 }
 .flex-control-nav li {
-    margin: 0 6px;
+    /* margin: 0 6px; */
     display: inline-block;
     zoom: 1;
     *display: inline;
@@ -705,7 +705,7 @@ call-to-action .button {
    margin-bottom: 6px;
 }
 #contact p.lead {
-   font: 1.7em 'opensans-light', sans-serif;
+   /* font: 1.7em 'opensans-light', sans-serif; */
    padding-right: 3%;
 }
 #contact .header-col { padding-top: 6px; }
@@ -714,7 +714,7 @@ call-to-action .button {
  
 
 .address{
-   font-size: 1.5em;
+   /* font-size: 1.5em; */
    line-height: 1.2em;
 }
 
@@ -737,7 +737,7 @@ footer {
 
 footer a, footer a:visited { 
    color: #000; 
-   font-size: 1.7em; 
+   font-size: 1.2em; 
    font-weight: bold;
 
 }
