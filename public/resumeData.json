@@ -34,11 +34,6 @@
         "className":"fa fa-twitter"
       },
       {
-        "name":"soundcloud",
-        "url":"https://soundcloud.com/jonchristie",
-        "className":"fas fa-soundcloud"
-      },
-      {
         "name":"linkedin",
         "url":"https://www.linkedin.com/in/jonpchristie/",
         "className":"fa fa-linkedin"
