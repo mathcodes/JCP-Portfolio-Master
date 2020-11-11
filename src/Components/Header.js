@@ -75,7 +75,7 @@ class Header extends Component {
             <hr />
             <ul className="social">
             <li><a href="http://github.com/mathcodes">
-               <i id="gh" class="fa fa-github" aria-hidden="true"></i>
+               <i class="gh fa fa-github" aria-hidden="true"></i>
             </a>
             </li>
             <li><a href="https://www.linkedin.com/in/jonpchristie">
