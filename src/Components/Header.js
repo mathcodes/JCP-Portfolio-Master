@@ -74,8 +74,32 @@ class Header extends Component {
             <h3>{bio}</h3>
             <hr />
             <ul className="social">
-               {networks}
+            <li><a href="http://github.com/mathcodes">
+               <i id="gh" class="fa fa-github" aria-hidden="true"></i>
+            </a>
+            </li>
+            <li><a href="https://www.linkedin.com/in/jonpchristie">
+               <i class="li fa fa-linkedin"></i>
+            </a>
+            </li>
+            <li><a href="https://twitter.com/jonpchristie">
+               <i class="tw fa fa-twitter" aria-hidden="true"></i>
+            </a>
+            </li>
+            <li><a href="https://www.instagram.com/jon011235">
+               <i class="pi fa fa-instagram" aria-hidden="true"></i>
+            </a>
+            </li>
+            <li><a href="https://open.spotify.com/artist/07S7aLfxH70VAX64g1WuFw?si=-HWhcERiSD69S_NfZEZ_lw">
+               <i class="sp fa fa-spotify" aria-hidden="true"></i>
+            </a>
+            </li>
+            <li><a href="https://www.youtube.com/channel/UC5GFnN-lv8Yuqc9O3b79k6g">
+               <i class="yt fa fa-youtube" aria-hidden="true"></i>
+            </a>
+            </li>
             </ul>
+
             
 
 <div id="txt"></div>
