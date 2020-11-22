@@ -12,7 +12,7 @@
   - [Contact](#contact)
   
 ## Link
-Deployed link: [Portfolio](https://mathcodes.github.io/jcp2.0.1/).
+LIVE: [Portfolio](https://mathcodes.github.io/jcp2.0.1/).
 
 ## Screenshots
 <img src ="https://github.com/mathcodes/Resources/blob/master/img/port1.png" alt="PortfolioShot1" width="auto" height="200px" /> <img src ="https://github.com/mathcodes/Resources/blob/master/img/Port2.png" alt="PortfolioShot1" width="auto" height="200px" /> <img src ="https://github.com/mathcodes/Resources/blob/master/img/Port3.png" alt="PortfolioShot1" width="auto" height="200px" />
