@@ -19,7 +19,7 @@ class Portfolio extends Component {
                   height="90%"
                 />
 
-                <div className="overlay">
+               
                   <div className="portfolio-item-meta">
                     
                     <h6 className="h6PortHov">Technology Used:</h6>
@@ -48,7 +48,7 @@ class Portfolio extends Component {
                     >
                       <i className="fa fa-folder-open"></i>
                     </button>
-                  </div>
+               
                 </div>
               </a>
             </div>

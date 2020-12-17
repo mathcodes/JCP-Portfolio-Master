@@ -94,8 +94,8 @@ header .social li a:hover { color: #00becc; }
 header .scrolldown a {
    position: absolute;
    bottom: 30px;
-   left: 50%;
-   margin-left: -29px;
+   /* left: 50%; */
+   /* margin-left: -29px; */
    color: #fff;
    display: block;
    height: 42px;
@@ -227,9 +227,17 @@ ul#nav li.current a { color: #d35400; }
 
 
 .button, .buttonpdf {
-   /* margin-top: 6px; */
+   height: fit-content;
    background: #FF0000;
    color: white;
+   padding:5%;
+}
+
+
+
+.fa-download{
+   text-align: center;
+   padding-top:10%:
 }
 
 .ghbtn, .repobtn{
