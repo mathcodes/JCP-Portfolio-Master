@@ -1,62 +1,9 @@
-/*
-=====================================================================
-*   Ceevee v1.0 Default Stylesheet
-*   url: styleshout.com
-*   0¡-17-2014
-=====================================================================
-
-TOC:
-a. Webfonts and Icon fonts
-b. Reset
-c. Default Styles
-   1. Basic
-   2. Typography
-   3. Links
-   4. Images
-   5. Buttons
-   6. Forms
-d. Grid
-e. Others
-   1. Clearing
-   2. Misc
-
-=====================================================================  */
-
-/* ------------------------------------------------------------------ */
-/* a. Webfonts and Icon fonts
- ------------------------------------------------------------------ */
 
  @import url("fonts.css");
  @import url("fontello/css/fontello.css");
  @import url("font-awesome/css/font-awesome.min.css");
- 
- /* ------------------------------------------------------------------
- /* b. Reset
-       Adapted from:
-       Normalize.css - https://github.com/necolas/normalize.css/
-       HTML5 Doctor Reset - html5doctor.com/html-5-reset-stylesheet/
- /* ------------------------------------------------------------------ */
- 
- html, body, div, span, object, iframe,
- h1, h2, h3, h4, h5, h6, p, blockquote, pre,
- abbr, address, cite, code,
- del, dfn, em, img, ins, kbd, q, samp,
- small, strong, sub, sup, var,
- b, i,
- dl, dt, dd, ol, ul, li,
- fieldset, form, label, legend,
- table, caption, tbody, tfoot, thead, tr, th, td,
- article, aside, canvas, details, figcaption, figure,
- footer, header, hgroup, menu, section, summary,
- time, mark, audio, video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    outline: 0;
-    font-size: 100%;
-    vertical-align: baseline;
-    background: transparent;
- }
+
+
  
  article,aside,details,figcaption,figure,
  footer,header,hgroup,menu,section {
@@ -282,7 +229,7 @@ e. Others
  a, a:visited {
     text-decoration: none;
     outline: 0;
-    color: #179038;
+
  
     -webkit-transition: color .3s ease-in-out;
     -moz-transition: color .3s ease-in-out;
@@ -313,151 +260,10 @@ e. Others
  li{ 
     color:rgb(208, 208, 208) ;
  }
- /* ---------------------------------------------------------------------
- /*  Stats Tab Markup
- 
-     <ul class="stats-tabs">
-       <li><a href="#">[value]<b>[name]</b></a></li>
-     </ul>
- 
-     Extend this object into your markup.
- /*
- /* --------------------------------------------------------------------- */
- .stats-tabs {
-    padding: 0;
-    margin: 24px 0;
- }
- .stats-tabs li {
-    display: inline-block;
-    margin: 0 10px 18px 0;
-    padding: 0 10px 0 0;
-    border-right: 1px solid #ccc;
- }
- .stats-tabs li:last-child {
-    margin: 0;
-    padding: 0;
-    border: none;
- }
- .stats-tabs li a {
-    display: inline-block;
-    font-size: 22px;
-    font-family: 'opensans-bold', sans-serif;
-    border: none;
-    color: #313131;
- }
- .stats-tabs li a:hover {
-    color:#179038;
- }
- .stats-tabs li a b {
-    display: block;
-    margin: 6px 0 0 0;
-    font-size: 13px;
-    font-family: 'opensans-regular', sans-serif;
-    color: #8B9798;
- }
- 
- /* definition list */
- dl { margin: 12px 0; }
- dt { margin: 0; color:#179038; }
- dd { margin: 0 0 0 20px; }
- 
- /* Lining Definition Style Markup */
- .lining dt,
- .lining dd {
-    display: inline;
-    margin: 0;
- }
- .lining dt + dt:before,
- .lining dd + dt:before {
-    content: "\A";
-    white-space: pre;
- }
- .lining dd + dd:before {
-    content: ", ";
- }
- .lining dd:before {
-    content: ": ";
-    margin-left: -0.2em;
- }
- 
- /* Dictionary Definition Style Markup */
- .dictionary-style dt {
-    display: inline;
-    counter-reset: definitions;
- }
- .dictionary-style dt + dt:before {
-    content: ", ";
-    margin-left: -0.2em;
- }
- .dictionary-style dd {
-    display: block;
-    counter-increment: definitions;
- }
- .dictionary-style dd:before {
-    content: counter(definitions, decimal) ". ";
- }
- 
- /* Pagination */
- .pagination {
-    margin: 36px auto;
-    text-align: center;
- }
- .pagination ul li {
-    display: inline-block;
-    margin: 0;
-    padding: 0;
- }
- .pagination .page-numbers {
-    font: 15px/18px 'opensans-bold', sans-serif;
-    display: inline-block;
-    padding: 6px 10px;
-    margin-right: 3px;
-    margin-bottom: 6px;
-    color: #6E757C;
-    background-color: #E6E8EB;
- 
-    -webkit-transition: all 200ms ease-in-out;
-    -moz-transition: all 200ms ease-in-out;
-    -o-transition: all 200ms ease-in-out;
-    -ms-transition: all 200ms ease-in-out;
-    transition: all 200ms ease-in-out;
- 
-    -moz-border-radius: 3px;
-    -webkit-border-radius: 3px;
-    -khtml-border-radius: 3px;
-    border-radius: 3px;
- }
- .pagination .page-numbers:hover {
-    background: #838A91;
-    color: #fff;
- }
- .pagination .current,
- .pagination .current:hover {
-    background-color: #179038;
-    color: #fff;
- }
- .pagination .inactive,
- .pagination .inactive:hover {
-    background-color: #E6E8EB;
-    color: #A9ADB2;
- }
- .pagination .prev, .pagination .next {}
- 
- /*  5. Images  --------------------------------------------------------- */
- 
- img {
-    max-width: 100%;
-    height: auto;
- }
- img.skill{
-   max-width: 65%;
- }
- img.pull-right { margin: 12px 0px 0px 18px; }
- img.pull-left { margin: 12px 18px 0px 0px; }
  
  /*  6. Buttons  --------------------------------------------------------- */
  
- .button,
+ /* .button,
  .button:visited,
  button,
  input[type="submit"],
@@ -485,7 +291,7 @@ e. Others
     -webkit-border-radius: 3px;
     -khtml-border-radius: 3px;
     border-radius: 3px;
- }
+ } */
  
  .button:hover,
  button:hover,
@@ -794,25 +600,7 @@ e. Others
  }
 
 
-.portfolio-item{
-   float:left;
-}
 
-/* .cardcontainer {
-   display: grid;
-   grid-template-columns: repeat(auto-fill, 200px);
-   grid-auto-rows: 200px;
-   grid-gap: 10px;
-   justify-content: center;
- } */
-
- .item {
-   height: fit-content;
-   width: fit-content;
-   background-color: #d35400;
-   padding: 10px;
-   margin: 10px;
- }
 
  /* .row {
    margin-right: 1px;
