@@ -239,7 +239,13 @@
       line-height: 12px; /* reset line-height from 48px */
       border: none;
    }  
-
+   .nav {
+      display:block ;
+      flex-wrap: wrap;
+      padding-left: 0;
+      margin-bottom: 0;
+      list-style: none;
+   }
 
    /* Header Styles
    -------------------------------------------------------------------- */
