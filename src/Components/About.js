@@ -45,13 +45,16 @@ class About extends Component {
           <div className="two columns col3right">
             <h2>Qualificiations and Technical Skills:</h2>
             <ul>
+              <li>Full Stack Bootcamp Graduate</li>
               <li>Mathematics Major</li>
-              <li>Bootcamp Graduate</li>
-              <li>HTML5, CSS3, JavaScript</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
               <li>MERN</li>
               <li>APIs</li>
               <li>MySQL, noSQL</li>
-              <li>Responsive Design</li>
+              <li>MongoDB, Mongoose, Mongo Atlas</li>
+              <li>Responsive Web Design</li>
               <li>Mobile Friendly</li>
             </ul>
             <div className="download">
