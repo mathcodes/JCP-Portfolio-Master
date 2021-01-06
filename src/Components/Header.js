@@ -37,7 +37,7 @@ class Header extends Component {
  
  
 
-          <ul id="nav" className="nav" style={{display: flex}}>
+          <ul id="nav" className="nav" style={{display: "flex"}}>
             <li className="current">
               <a className="smoothscroll" href="#home">
                 Home              
