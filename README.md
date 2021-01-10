@@ -15,7 +15,10 @@
 LIVE: [Portfolio](https://mathcodes.github.io/jcp2.0.1/)
 
 ## Screenshots
-<img src ="https://github.com/mathcodes/Resources/blob/master/img/port1.png" alt="PortfolioShot1" width="auto" height="200px" /> <img src ="https://github.com/mathcodes/Resources/blob/master/img/Port2.png" alt="PortfolioShot1" width="auto" height="200px" /> <img src ="https://github.com/mathcodes/Resources/blob/master/img/Port3.png" alt="PortfolioShot1" width="auto" height="200px" />
+<img src ="https://raw.githubusercontent.com/mathcodes/jcp2.0.1/Main/public/images/portfolio/PortfolioImage1.png" alt="PortfolioShot1" width="auto" height="200px" /> 
+<img src ="https://github.com/mathcodes/jcp2.0.1/blob/Main/public/images/portfolio/PortfolioImage2.png" alt="PortfolioShot1" width="auto" height="200px" /> 
+<img src ="https://raw.githubusercontent.com/mathcodes/jcp2.0.1/Main/public/images/portfolio/PortfolioImage3.png" alt="PortfolioShot1" width="auto" height="200px" />
+<img src ="https://raw.githubusercontent.com/mathcodes/jcp2.0.1/Main/public/images/portfolio/PortfolioImage4.png" alt="PortfolioShot1" width="auto" height="200px" />
 
 ## Licenses
 <a href="https://opensource.org/licenses/MIT">
