@@ -14,7 +14,7 @@
 ## Link
 LIVE: [Portfolio](https://mathcodes.github.io/jcp2.0.1/)
 
-## Screenshots (NEW IMAGES AND VIODES COMING WITH UPADTED PORTFOLIO!!!
+## Screenshots (NEW IMAGES AND VIDEOS COMING WITH UPADTED PORTFOLIO!!!
 <img src ="https://raw.githubusercontent.com/mathcodes/jcp2.0.1/Main/public/images/portfolio/PortfolioImage1.png" alt="PortfolioShot1" width="auto" height="200px" /> 
 <img src ="https://github.com/mathcodes/jcp2.0.1/blob/Main/public/images/portfolio/PortfolioImage2.png" alt="PortfolioShot1" width="auto" height="200px" /> 
 <img src ="https://raw.githubusercontent.com/mathcodes/jcp2.0.1/Main/public/images/portfolio/PortfolioImage3.png" alt="PortfolioShot1" width="auto" height="200px" />
