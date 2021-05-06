@@ -24,7 +24,7 @@
 <a href="https://opensource.org/licenses/MIT">
 <img src="https://img.shields.io/badge/License-MIT-green" alt="MIT"></a>
 
-## Context
+## Context 
 [CLICK HERE](https://mathcodes.github.io/jcp2.0.1/) to check out my portfolio. Enjoy some of my work as I become a full-stack developer. Enjoy and please use the contact info to get in touch with me about any positions or freelance work you would like to discuss. 
 
 ## Contact
